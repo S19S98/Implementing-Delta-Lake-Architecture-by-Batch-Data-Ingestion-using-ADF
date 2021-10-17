@@ -44,7 +44,7 @@ All the above resources are deployed using Azure, under a single Resource Group:
     - Address + CustomerAddress + Customer = customerAndAddressDetails
     - Product + SalesOrderHeader + SalesOrderDetail = productSohSod
     - Customer + SalesOrderHeader + SalesOrderDetail + Product + CustomerAddress + Address = prodCustAddressDetails
-  - The SQL queries on how the files are merged are mentioned in the SQL Queries Tab
+  - The SQL queries on how the files are merged are mentioned in the SQL Queries(1,2,3)
   - And the above queries are implemented in Azure Data Factory using Data Flow
   - Similar to Pipeline 1 Tumbling Window Trigger of 1 hour is implemented. 
 
